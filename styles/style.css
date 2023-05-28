@@ -1,0 +1,140 @@
+/* -------------------Mobile layout------------------------------ */
+
+* {
+  font-family: 'Inter', sans-serif;
+  background-color:rgb(243, 245, 252);
+}
+
+.mobile-layout {
+  /* border: solid 3px red; */
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.fig-logo {
+  margin-bottom: 68px
+}
+
+.logo-alura {
+  height: 34px;
+  position: absolute;
+  inset: 17px 8%;
+  transition: transform 0.015s
+}
+
+.logo-alura:active {
+  transform: scale(1.17);
+}
+
+.input-label {
+  /* Gray 400 */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(73, 80, 87);
+}
+
+#input-box {
+  /* Inter, regular, Dark blue 300 */
+  font-size: 20px;
+  font-weight: 400;
+  width: 93%;
+  height: 20vh;
+  border: none;
+  resize: none;
+  padding: 17px;
+  box-sizing: border-box;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.15);
+  border-radius: 3vh;
+}
+
+#input-box:focus {
+  outline: none;
+}
+
+::placeholder {
+  /* Gray 100 */
+  color: rgb(206, 212, 218);
+}
+
+.encrypt-button {
+  /* Dark blue 300 */
+  background-color: rgb(10, 56, 113);
+  border: none;
+  border-radius: 25vh;
+  width: 300px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+}
+
+.decrypt-button {
+  /* Dark blue 300 border */
+  background-color: none;
+  border: 1px solid rgb(10, 56, 113);
+  border-radius: 25vh;
+  width: 300px;
+  height: 60px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(10, 56, 113);
+}
+
+.output-label {
+  /* Gray 400 */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(73, 80, 87);
+}
+
+#output-box {
+  /* Inter, regular, Dark blue 300 */
+  font-size: 20px;
+  font-weight: 400;
+  width: 93%;
+  height: 20vh;
+  border-radius: 3vh;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.15);
+  resize: none;
+  padding: 17px;
+  box-sizing: border-box;
+}
+
+#output-box:focus {
+  outline: none;
+}
+
+main p {
+  /* Texto oculto */
+  background-color: transparent;
+  visibility: hidden;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: rgb(73, 80, 87);
+  margin-bottom: 25px;
+}
+
+footer img {
+  width: 100px;
+  object-fit: contain;
+  filter: opacity(0.5);
+}
+

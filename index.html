@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="es_SV">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Encriptador</title>
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-  
-</body>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <figure class="fig-logo">
+        <a href="https://www.aluracursos.com/">
+          <img class="logo-alura" src="design/img/logo-alura.svg" alt="Logo AluraLatam">
+        </a>
+      </figure>
+    </header>
+
+    <main>
+      <div class="mobile-layout">
+        <label class="input-label" for="input-box">&#9432; Solo letras en minúscula  y sin acentos</label>
+        <textarea name="input-box" id="input-box" placeholder="Ingrese el texto aqui"></textarea>
+        <button class="encrypt-button">Encriptar</button>
+        
+        <button class="decrypt-button">Desencriptar</button>
+        <label class="output-label" for="output-box">&#9432; Mensaje procesado</label>
+        <textarea name="output-box" id="output-box"></textarea>        
+        <p>Ningún mensaje fue encontrado</p>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+    </main>
+
+    <footer>
+      <figure>
+        <img src="design/img/logo-oracle.svg" class="logo-oracle" alt="Logo Oracle">
+      </figure>
+      <figure>
+        <img src="design/img/logo-aluralatam.svg" class="logo-aluralatam" alt="Logo AluraLatam">
+      </figure>
+      <figure>
+        <img src="design/img/logo-one.png" class="logo-one" alt="Logo One">
+      </figure>
+      <p>Alexander Viera - 2023</p>
+    </footer>
+
+    <script></script>  
+  </body>
 </html>
