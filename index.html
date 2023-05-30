@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   </head>
 
-  <body>
+  <body onLoad="scrolltoEnd()">
     <header>
       <figure class="fig-logo">
         <a href="https://www.aluracursos.com/">
@@ -25,13 +26,12 @@
       <div class="mobile-layout">
         <label class="input-label" for="input-box">&#9432; Solo letras en minúscula  y sin acentos</label>
         <textarea name="input-box" id="input-box" placeholder="Ingrese el texto aqui"></textarea>
-        <button class="encrypt-button">Encriptar</button>
+        <button class="encrypt-button" onclick="encryptButton()">Encriptar</button>
         
-        <button class="decrypt-button">Desencriptar</button>
+        <button class="decrypt-button" onclick="dencryptButton()">Desencriptar</button>
         <label class="output-label" for="output-box">&#9432; Mensaje procesado</label>
-        <textarea name="output-box" id="output-box"></textarea>        
-        <p>Ningún mensaje fue encontrado</p>
-        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        <textarea name="output-box" id="output-box"></textarea>
+        <span class="material-symbols-outlined" id="copyButton" onclick="copyButton()">content_copy</span>
       </div>
     </main>
 
@@ -45,9 +45,9 @@
       <figure>
         <img src="design/img/logo-one.png" class="logo-one" alt="Logo One">
       </figure>
-      <p>Alexander Viera - 2023</p>
+      <p id="end">Alexander Viera - 2023</p>
     </footer>
 
-    <script></script>  
+    <script src="scripts/script.js"></script>
   </body>
 </html>
