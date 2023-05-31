@@ -25,8 +25,8 @@ Es un proyecto desarrollado como parte del primer Challenge del curso de Oracle 
 <img alt= "tablet-full" src= "https://github.com/Alex-Viera/Encriptador/assets/134527756/291409e0-16fb-4114-bb53-b477f54b5b5b" width= "10%">
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<img alt= "laptop" src= "https://github.com/Alex-Viera/Encriptador/assets/134527756/2e56df3b-c318-451c-b0ee-d28552fc7ab2" width= "24%">
-<img alt= "laptop-full" src= "https://github.com/Alex-Viera/Encriptador/assets/134527756/a35daa92-9f82-4af9-8da3-2f5eee32c503" width= "24%">
+<img alt= "laptop" src= "https://github.com/Alex-Viera/Encriptador/assets/134527756/2e56df3b-c318-451c-b0ee-d28552fc7ab2" width= "23%">
+<img alt= "laptop-full" src= "https://github.com/Alex-Viera/Encriptador/assets/134527756/a35daa92-9f82-4af9-8da3-2f5eee32c503" width= "23%">
 
 ### Conclusión
 Como la segunda página web que he creado, es evidente que tiene muchas cosas que se pueden mejorar, pero este es mi punto de partida...
