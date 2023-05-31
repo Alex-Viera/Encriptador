@@ -24,7 +24,7 @@
   height: 34px;
   position: absolute;
   inset: 17px 8%;
-  transition: transform 0.015s
+  transition: transform 0.015s;
 }
 
 .logo-alura:active {
@@ -144,4 +144,112 @@ footer img {
   width: 100px;
   object-fit: contain;
   filter: opacity(0.5);
+}
+
+/* Para pantallas de hasta 1007px este formato esta pensado para tablets */
+@media (max-width: 1007px) {
+  .logo-alura {
+    height: 37px;
+    position: absolute;
+    inset: 19px 8%;
+    transition: transform 0.015s;
+  }
+
+  .input-label {
+    font-size: 13px;
+  }
+
+  #input-box {
+    font-size: 22px;
+  }
+
+  .output-label {
+    font-size: 13px;
+  }
+
+  /* Copy icon */
+  .material-symbols-outlined {
+    font-size: 36px !important;
+    position: relative;
+    top: -3%;
+    left: 0%;
+  }
+
+  #output-box {
+    /* Inter, regular, Dark blue 300 */
+    font-size: 22px;
+  }
+
+  footer {
+    gap: 28px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+/* Para pantallas desde 1008px en adelante este formato esta pensado para laptops */
+@media (min-width: 1008px) {
+  .mobile-layout {
+    margin-left: 70px;
+    padding: 0px;
+  }
+  
+  .logo-alura {
+    height: 41px;
+    position: absolute;
+    inset: 15px 41px;
+  }
+
+  .input-label {
+    position: absolute;
+    inset: 68px 120px;
+    width: 280px;
+    height: 20px;
+  }
+
+  #input-box {
+    position: absolute;
+    inset: 90px 120px;
+    width: 350px;
+    height: 450px;
+  }
+
+  .encrypt-button {
+    position: absolute;
+    inset: 560px 150px;
+  }
+
+  .decrypt-button {
+    position: absolute;
+    inset: 560px 855px;
+  }
+
+  .output-label {
+    position: absolute;
+    inset: 68px 822px;
+    width: 280px;
+    height: 20px;
+  }
+
+  /* Copy icon */
+  .material-symbols-outlined {
+    position: absolute;
+    inset: 497px 1120px;
+  }
+
+  #output-box {
+    position: absolute;
+    inset: 90px 822px;
+    width: 350px;
+    height: 450px;
+    padding: 10px 40px 0px 20px;
+  }
 }

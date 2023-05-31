@@ -68,5 +68,5 @@ function copyButton() {
     navigator.clipboard.writeText(output.value)
     output.value = "";
     copy.style.display = "none"
-    alert("Texto Copiado")
+    alert("( > ᴗ < ) Texto Copiado")
 }
